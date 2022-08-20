@@ -13,6 +13,7 @@ const App = () => {
       <input type="text" id='Nome' style={{paddingTop: 8, paddingBottom: 8, borderStyle: 'hidden', width: '100%', borderRadius: 8, outline: 'none'}} />
 
       <button
+      
       onClick={obterTextoDoBotao} 
       style={estilosBotao}>{obterTextoDoBotao()}</button>
     </div>
